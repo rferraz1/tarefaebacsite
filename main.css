@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1, .container nav ul li a {
+    font-family: 'Mogra', cursive;
+    font-weight:  normal;
+}
+
+header{
+    padding: 16px 0;
+    background-color: black;
+    color: white;
+}
+
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container li {
+    list-style-type: none;
+
+}
+
+
+section img {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: relative;
+    right: 150px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+header img {
+    width: 80px;
+    position: relative;
+    left: 680px;
+    border-radius: 10%;
+}
+
+.container nav ul li {
+    font-family: 'Mogra', cursive;
+    font-size: 30px;
+}
+.container p, h2{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Mogra', cursive;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+form input, textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  rgb(91, 87, 87);
+}
+
+.contato {
+    
+    width: 500px;
+    height: 20px;
+    font-size: 100px;
+}
+
+.contato img{
+    display: flex;
+}
